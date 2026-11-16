@@ -1,56 +1,107 @@
-export const featuredProject = {
-  statusText: "Completed",
-  titleLines: ["User Management", "System"],
-  description:
-    "A fully functional full-stack CRUD web application for managing users — built with a Java Spring Boot REST API backend, React frontend, and MySQL database. Supports create, read, update, and delete operations with clean UI and real-time API integration.",
-  stackLabel: "Tech Stack",
-  tech: ["Java", "Spring Boot", "React", "MySQL", "REST API", "Postman", "Git"],
-  githubUrl: "https://github.com/hasheel18/FullStack-Application.git",
 
-  // visual/mock content (kept same as your HTML)
-  mock: {
-    urlText: "localhost:3000/users",
-    appTitle: "User Management App",
-    addBtnText: "+ Add User",
-    tableHead: ["Name", "Username", "Email", "Status"],
-    rows: [
-      {
-        name: "Alex Chen",
-        username: "alex_c",
-        email: "alex@dev.io",
-        status: "Active",
-        avatarGradient: "linear-gradient(135deg,#6c63ff,#00e5ff)",
-      },
-      {
-        name: "Sam Rivera",
-        username: "sam_r",
-        email: "sam@dev.io",
-        status: "Active",
-        avatarGradient: "linear-gradient(135deg,#ff4d8d,#ff9800)",
-      },
-      {
-        name: "Morgan Lee",
-        username: "morgan_l",
-        email: "morgan@dev.io",
-        status: "Active",
-        avatarGradient: "linear-gradient(135deg,#39ff14,#00e5ff)",
-      },
+export const projects = [
+  {
+    id: 1,
+    title: "User Management System",
+
+    image: "/projects/user-management.webp",
+
+    description:
+      "A full-stack CRUD web application for managing users, built with a Java Spring Boot REST API backend, React frontend, and MySQL database. Supports creating, viewing, updating, and deleting users through a clean interface.",
+
+    tech: [
+      "Java",
+      "Spring Boot",
+      "React",
+      "MySQL",
+      "REST API",
+      "Postman",
+      "Git",
     ],
-  },
-};
 
-export const inProgressProjects = [
-  {
-    statusText: "In Progress",
-    number: "02",
-    title: "Flight Radar Application ✈️",
-    description: "Building a real-time Flight Radar app using an API for live aircraft tracking. Stay tuned.",
-    progressPercent: 50,
-    tags: ["JavaScript"],
-    isPlaceholder: false,
+    githubUrl:
+      "https://github.com/hasheel18/FullStack-Application",
+
+    liveUrl: "",
   },
   {
-    isPlaceholder: true,
-    placeholderText: "Coming Soon...\nStay Tuned!",
+    id: 2,
+    title: "SalesReporter",
+
+    image: "/projects/sales-reporter.webp",
+
+    description:
+          "A Java-based command-line application that processes CSV sales data to generate detailed product sales reports. Calculates revenue by product and category, identifies best-selling and highest-revenue products, and supports console and text-file reporting.",
+
+    tech: [
+      "Java",
+      "Maven",
+      "JUnit 5",
+      "OOP",
+      "SOLID Principles",
+      "CSV Processing",
+    ],
+
+    githubUrl:
+          "https://github.com/hasheel18/Product-Sales-Report-Generator",
+
+    liveUrl: "",
   },
+
+
+  {
+    id: 3,
+
+    title: "Inter-University Cricket Championship System",
+
+    image: "/projects/cricket-championship.webp",
+
+    description:
+      "A full-stack web application for managing inter-university cricket tournaments. Features role-based access, team and player registration, match scheduling, result management, tournament standings and Stripe-powered registration payments.",
+
+    tech: [
+      "PHP",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Stripe API",
+    ],
+
+    githubUrl:
+      "https://github.com/Thisandu04/Inter-University-Cricket-Championship-System",
+
+    liveUrl: "",
+  },
+
+
+  {
+    id: 4,
+
+    title: "PromptLab",
+
+    image: "/projects/promptlab.webp",
+
+    description:
+      "An interactive AI playground built with Python and Streamlit, powered by Google's Gemini API. Explore zero-shot, few-shot and role-based prompting, compare Gemini models side by side and analyze response times and token usage through an interactive interface.",
+
+    tech: [
+      "Python",
+      "Streamlit",
+      "Gemini API",
+      "Google GenAI SDK",
+      "Prompt Engineering",
+      "Model Evaluation",
+    ],
+
+    githubUrl:
+      "https://github.com/hasheel18/ai-prompt-playground",
+
+    liveUrl:
+      "https://promptlabhero.streamlit.app/",
+  },
+
+
+  
+  
 ];

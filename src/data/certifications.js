@@ -65,4 +65,12 @@ export const certifications = [
     subLines: ["Got started with Mircosoft Azure and explored Azure physical and management infrastructure."],
     tags: ["MICROSOFT", "AZURE"],
   },
+  {
+    href: "https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7",
+    img: "/images/AWS.webp",
+    imgAlt: "AWS",
+    title: "AWS Cloud Practitioner Essentials",
+    subLines: ["Demonstrated proficiency in developing and maintaining applications on AWS."],
+    tags: ["AWS", "DEVELOPER"],
+  },
 ];

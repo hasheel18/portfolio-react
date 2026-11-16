@@ -34,4 +34,25 @@ export const blogs = [
     title: "The Shuttle Rover Badminton Retrieval System",
     desc: "Robotic shuttle rovers automate badminton training by detecting and retrieving shuttles, boosting practice efficiency.",
   },
+  {
+    href: "https://medium.com/@dhanushahasheel/designing-a-banking-app-with-use-case-diagrams-be0de0af5a6d",
+    thumb: "/images/blog-06.webp",
+    tags: ["Design", "Use Case Diagrams"],
+    title: "Designing a Banking App with Use Case Diagrams",
+    desc: "Use case diagrams visually represent user interactions with a banking app, clarifying requirements and guiding development.",
+  },
+  {
+    href: "https://medium.com/@dhanushahasheel/behind-every-click-how-web-browsers-use-processes-and-threads-fd90905cb0ee",
+    thumb: "/images/blog-07.webp",
+    tags: ["OS", "MultiProcessing"],
+    title: "Behind Every Click: How Web Browsers Use Processes and Threads",
+    desc: "Processes and Threads allow browsers to handle numerous tasks simultaneously while ensuring safety, reliability and efficiency of the application."
+  },
+  {
+    href: "https://medium.com/@dhanushahasheel/from-understanding-to-building-my-first-ai-agent-3ce2b497ffc5",
+    thumb: "/images/blog-08.webp",
+    tags: ["AI Agents", "Langchain", "LLM"],
+    title: "From Understanding to Building My First AI Agent",
+    desc: "AI is not anymore confined to just responding to queries. Using AI agents, AI models can plan activities, utilize tools, perceive outcomes, and perform multi-steps."
+  },
 ];

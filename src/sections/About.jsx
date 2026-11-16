@@ -17,7 +17,7 @@ export default function About() {
             <div className="card-orb o2"></div>
 
             <img
-              src="/images/profile.png"
+              src="/images/profile01.png"
               alt="Dhanusha Hasheel"
               style={{
                 position: "absolute",
